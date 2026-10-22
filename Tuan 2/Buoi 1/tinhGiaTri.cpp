@@ -1,4 +1,4 @@
-// 
+// Tính giá trị của n
 #include <iostream>
 using namespace std;
 // Nhập n

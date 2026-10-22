@@ -8,7 +8,7 @@ int chiaHet3()
 {
     int a, b;
     cout << "Nhập số a & b bất kì" << endl;
-    cin >> a;
+    cin >> a;   
     cin >> b;
     if (a>b)
     {

@@ -1,0 +1,11 @@
+# Loại bỏ tất cả các file thực thi .exe
+*.exe
+
+# Loại bỏ thư mục bin chứa file build
+bin/
+
+# Loại bỏ file tạm hoặc file cấu hình cá nhân nếu cần
+*.o
+*.obj
+
+.vscode/

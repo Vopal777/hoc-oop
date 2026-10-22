@@ -1,22 +1,24 @@
-// Tính giá trị của n
+// Tính giá trị
 #include <iostream>
 using namespace std;
 // Nhập n
-int tinhGiaTri()
+double tinhGiaTri()
 {
     int n;
     cout << "Nhập số n bất kì: " << endl;
     cin >> n;
-    for (int i = 1; i <= n; i++)
+    double sum = 0;
+    for (double i = 1; i <= n; i++)
     {
-        cout << i << endl;
+        sum += 1.0 / i;
     }
-    return 0;
+    return sum;
 }
 
 int main()
 {
-    int c;
+    double c;
     c = tinhGiaTri();
+    cout << "Kết quả: " << c << endl;
     return 0;
 }

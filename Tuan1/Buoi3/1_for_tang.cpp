@@ -18,11 +18,11 @@ void inRaSoChan()
 //     int n;
 //     cout<<"Nhập số bất kì"<< endl;
 //     cin>> n;
-//     for (int i = 2; i<n; i++)
-//     {
-//         if(i % 2 == 0)
-//             cout<<i<<endl;
-//     }
+    // for (int i = 2; i<n; i++)
+    // {
+    //     if(i % 2 == 0)
+    //         cout<<i<<endl;
+    // }
 // }
 
 int main()

@@ -17,8 +17,6 @@ int main() {
         cin >> a[i];
     }
 
-    cout << "Nhap L va R: ";
-    cin >> L >> R;
 
     cout << "Cac phan tu trong doan [" << L << ", " << R << "]: ";
     for (int i = 0; i < n; i++) {

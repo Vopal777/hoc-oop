@@ -3,14 +3,14 @@
 using namespace std;
 
 /*
-Đề bài:
-1. Khai báo struct NhanVien:
-   - string maNV;
-   - int luongNgay; (ví dụ: 300.000đ)
-   - int soNgayCong; (ví dụ: 24 ngày)
-2. Tính tiền lương: tongLuong = luongNgay * soNgayCong.
-3. Chính sách: Nếu soNgayCong >= 22 ngày thì cộng thêm tiền thưởng 50000 VND.
-4. In ra tổng lương thực nhận của nhân viên.
+	Đề bài:
+	1. Khai báo struct NhanVien:
+		- string maNV;
+		- int luongNgay; (ví dụ: 300.000đ)
+		- int soNgayCong; (ví dụ: 24 ngày)
+	2. Tính tiền lương: tongLuong = luongNgay * soNgayCong.
+	3. Chính sách: Nếu soNgayCong >= 22 ngày thì cộng thêm tiền thưởng 50000 VND.
+	4. In ra tổng lương thực nhận của nhân viên.
 */
 
 struct NhanVien

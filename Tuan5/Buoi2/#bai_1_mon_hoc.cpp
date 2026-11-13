@@ -3,16 +3,16 @@
 using namespace std;
 
 /*
-Đề bài:
-1. Khai báo struct MonHoc:
-   - string tenMon; (ví dụ: LapTrinh)
-   - double diemGK; (Hệ số 0.4)
-   - double diemCK; (Hệ số 0.6)
-2. Nhập thông tin môn học từ bàn phím.
-3. Tính: diemTK = diemGK * 0.4 + diemCK * 0.6
-4. Kiểm tra điều kiện:
-   - Nếu diemTK >= 5.0 thì in "DAT MON".
-   - Ngược lại: in "HOC LAI".
+	Đề bài:
+	1. Khai báo struct MonHoc:
+		- string tenMon; (ví dụ: LapTrinh)
+		- double diemGK; (Hệ số 0.4)
+		- double diemCK; (Hệ số 0.6)
+	2. Nhập thông tin môn học từ bàn phím.
+	3. Tính: diemTK = diemGK * 0.4 + diemCK * 0.6
+	4. Kiểm tra điều kiện:
+		- Nếu diemTK >= 5.0 thì in "DAT MON".
+		- Ngược lại: in "HOC LAI".
 */
 
 struct MonHoc

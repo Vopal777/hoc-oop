@@ -40,7 +40,7 @@ void tinhInKetQua(MonHoc mh)
 
 int main()
 {
-    MonHoc mh;
+    MonHoc mh, mh1, mh2;
 
     cout << "Nhap ten mon hoc: ";
     cin >> mh.tenMon;
@@ -49,7 +49,23 @@ int main()
     cout << "Nhap diem cuoi ky: ";
     cin >> mh.diemCK;
 
+    cout << "Nhap ten mon hoc: ";
+    cin >> mh1.tenMon;
+    cout << "Nhap diem giua ky: ";
+    cin >> mh1.diemGK;
+    cout << "Nhap diem cuoi ky: ";
+    cin >> mh1.diemCK;
+
+    cout << "Nhap ten mon hoc: ";
+    cin >> mh2.tenMon;
+    cout << "Nhap diem giua ky: ";
+    cin >> mh2.diemGK;
+    cout << "Nhap diem cuoi ky: ";
+    cin >> mh2.diemCK;
+
     tinhInKetQua(mh);
+    tinhInKetQua(mh1);
+    tinhInKetQua(mh2);
 
     return 0;
 }

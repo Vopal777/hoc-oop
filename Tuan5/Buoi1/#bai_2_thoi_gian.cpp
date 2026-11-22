@@ -22,8 +22,7 @@ void inThoiGian(ThoiGian tg)
 {
     int tongGiay = tg.gio * 3600 + tg.phut * 60 + tg.giay;
 
-    cout << "Thoi gian: " << tg.gio << "h "
-         << tg.phut << "p " << tg.giay << "s" << endl;
+    cout << "Thoi gian: " << tg.gio << "h " << tg.phut << "p " << tg.giay << "s" << endl;
     cout << "Tong so giay: " << tongGiay << " giay." << endl;
 }
 

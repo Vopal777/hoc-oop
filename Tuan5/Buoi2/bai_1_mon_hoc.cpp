@@ -24,6 +24,7 @@ struct MonHoc
 
 int main()
 {
+    double diemTK;
     MonHoc mh;
 
     cout << "Nhap ten mon hoc: ";
@@ -33,7 +34,7 @@ int main()
     cout << "Nhap diem cuoi ky: ";
     cin >> mh.diemCK;
 
-    double diemTK = mh.diemGK * 0.4 + mh.diemCK * 0.6;
+    diemTK = mh.diemGK * 0.4 + mh.diemCK * 0.6;
 
     cout << "Diem tong ket cua mon " << mh.tenMon << " la: " << diemTK << endl;
 
